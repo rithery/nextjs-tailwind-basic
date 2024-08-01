@@ -1,15 +1,14 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "About",
 };
-
-export default function Home() {
+export default function Page() {
   return (
-    <main className="flex h-full justify-center pt-48">
+    <div className="h-full w-full flex justify-center pt-48">
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Home
+        About
       </h1>
-    </main>
+    </div>
   );
 }
